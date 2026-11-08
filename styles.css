@@ -328,11 +328,12 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   .hero-date { justify-content: center; }
   .countdown-block { width: 100%; max-width: 350px; padding: 13px 10px 12px; }
   .countdown-label { font-size: 8px; letter-spacing: 0.12em; white-space: nowrap; }
-  .countdown-grid { grid-template-columns: repeat(2, 1fr); gap: 0; }
-  .countdown-grid span { padding: 8px 5px; border-right: 0; border-bottom: 1px solid rgba(197, 72, 109, 0.18); }
+  .countdown-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
+  .countdown-grid span { padding: 6px 1px; border-right: 1px solid rgba(197, 72, 109, 0.18); border-bottom: 0; }
   .countdown-grid span:nth-child(odd) { border-right: 1px solid rgba(197, 72, 109, 0.18); }
-  .countdown-grid span:nth-child(n + 3) { border-bottom: 0; }
-  .countdown-grid strong { font-size: 25px; }
+  .countdown-grid span:last-child { border-right: 0; }
+  .countdown-grid strong { font-size: 23px; }
+  .countdown-grid small { font-size: 7px; letter-spacing: 0.04em; }
   .hero-art { width: auto; height: auto; }
   .arch-back { height: 415px; }
   .arch-front { height: 366px; }
@@ -371,6 +372,8 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   .arabic { font-size: 25px; }
   .countdown-block { max-width: 100%; }
   .countdown-label { font-size: 7px; letter-spacing: 0.08em; }
+  .countdown-grid strong { font-size: 21px; }
+  .countdown-grid small { font-size: 6px; letter-spacing: 0.02em; }
   .countdown-target { font-size: 13px; }
   .hero-art { height: 405px; }
   .arch-back { width: 88%; height: 380px; }
