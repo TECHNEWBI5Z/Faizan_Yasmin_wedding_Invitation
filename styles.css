@@ -327,6 +327,7 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   .hero-subtitle { margin-right: auto; margin-left: auto; }
   .hero-date { justify-content: center; }
   .countdown-block { width: 100%; max-width: 350px; padding: 13px 10px 12px; }
+  .countdown-label { font-size: 8px; letter-spacing: 0.12em; white-space: nowrap; }
   .countdown-grid { grid-template-columns: repeat(2, 1fr); gap: 0; }
   .countdown-grid span { padding: 8px 5px; border-right: 0; border-bottom: 1px solid rgba(197, 72, 109, 0.18); }
   .countdown-grid span:nth-child(odd) { border-right: 1px solid rgba(197, 72, 109, 0.18); }
@@ -369,7 +370,7 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   .topbar, .section-pad, .footer { width: calc(100% - 32px); }
   .arabic { font-size: 25px; }
   .countdown-block { max-width: 100%; }
-  .countdown-label { font-size: 8px; letter-spacing: 0.14em; }
+  .countdown-label { font-size: 7px; letter-spacing: 0.08em; }
   .countdown-target { font-size: 13px; }
   .hero-art { height: 405px; }
   .arch-back { width: 88%; height: 380px; }
