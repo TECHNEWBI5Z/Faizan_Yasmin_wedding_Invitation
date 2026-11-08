@@ -320,7 +320,11 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   .music-toggle { padding: 6px 8px; }
   .music-toggle .music-label { display: none; }
   .opening-footer { right: 20px; bottom: 19px; left: 20px; }
-  .hero { display: block; min-height: 720px; padding: 72px 18px 82px; }
+  .hero { display: block; min-height: 720px; padding: 72px 18px 82px; border: 0; background-color: #f8f0e7; background-image: none; }
+  .hero .floral-frame { display: block; z-index: 0; inset: 8px; border: 1px solid rgba(180, 50, 82, 0.32); background-image: linear-gradient(rgba(255, 250, 245, 0.12), rgba(255, 250, 245, 0.12)), url("assets/floral-template.png"); background-position: center; background-size: cover; }
+  .hero .floral-frame > * { display: none; }
+  .hero::before { inset: 35px; }
+  .hero::after { inset: 49px; }
   .hero-copy { width: 100%; padding: 0; text-align: center; }
   .eyebrow { justify-content: center; }
   h1 { margin-right: auto; margin-left: auto; font-size: clamp(70px, 19vw, 105px); }
