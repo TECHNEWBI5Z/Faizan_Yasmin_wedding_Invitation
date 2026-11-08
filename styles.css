@@ -325,6 +325,12 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
   h1 { margin-right: auto; margin-left: auto; font-size: clamp(70px, 19vw, 105px); }
   .hero-subtitle { margin-right: auto; margin-left: auto; }
   .hero-date { justify-content: center; }
+  .countdown-block { width: 100%; max-width: 350px; padding: 13px 10px 12px; }
+  .countdown-grid { grid-template-columns: repeat(2, 1fr); gap: 0; }
+  .countdown-grid span { padding: 8px 5px; border-right: 0; border-bottom: 1px solid rgba(197, 72, 109, 0.18); }
+  .countdown-grid span:nth-child(odd) { border-right: 1px solid rgba(197, 72, 109, 0.18); }
+  .countdown-grid span:nth-child(n + 3) { border-bottom: 0; }
+  .countdown-grid strong { font-size: 25px; }
   .hero-art { width: auto; height: auto; }
   .arch-back { height: 415px; }
   .arch-front { height: 366px; }
@@ -361,6 +367,9 @@ body.invitation-open .page-shell { animation: page-arrive 900ms ease both; }
 @media (max-width: 420px) {
   .topbar, .section-pad, .footer { width: calc(100% - 32px); }
   .arabic { font-size: 25px; }
+  .countdown-block { max-width: 100%; }
+  .countdown-label { font-size: 8px; letter-spacing: 0.14em; }
+  .countdown-target { font-size: 13px; }
   .hero-art { height: 405px; }
   .arch-back { width: 88%; height: 380px; }
   .arch-front { width: 75%; height: 340px; }
