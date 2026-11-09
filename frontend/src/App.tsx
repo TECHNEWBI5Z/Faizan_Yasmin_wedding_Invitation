@@ -50,7 +50,7 @@ export default function App() {
     setGateStage("opening");
     startAudio();
     window.setTimeout(() => setEntered(true), 350);
-    window.setTimeout(() => setGateStage("gone"), 2100);
+    window.setTimeout(() => setGateStage("gone"), 1700);
   };
 
   const toggleSound = () => {
