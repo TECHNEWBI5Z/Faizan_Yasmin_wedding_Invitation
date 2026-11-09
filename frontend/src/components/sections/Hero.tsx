@@ -16,7 +16,7 @@ export function Hero({ config }: HeroProps) {
     <section className="hero" id="home" aria-label="Wedding invitation">
       <div className="hero-media" aria-hidden="true">
         <img
-          src="/img/hero-garden-canal.webp"
+          src="./img/hero-garden-canal.webp"
           alt=""
           width={1152}
           height={772}

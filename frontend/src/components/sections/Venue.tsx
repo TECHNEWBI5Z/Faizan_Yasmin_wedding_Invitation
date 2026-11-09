@@ -17,7 +17,7 @@ export function Venue({ config }: { config: WeddingConfig }) {
       <Reveal className="section-pad" delay={120}>
         <div className="venue-card glass-panel" data-testid="venue-card">
           <div className="venue-art" aria-hidden="true">
-            <img src="/img/venue-courtyard.webp" alt="" width={1152} height={772} loading="lazy" decoding="async" />
+            <img src="./img/venue-courtyard.webp" alt="" width={1152} height={772} loading="lazy" decoding="async" />
           </div>
           <div className="venue-copy">
             <p className="overline">The celebration grounds</p>

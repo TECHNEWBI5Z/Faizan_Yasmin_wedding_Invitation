@@ -50,9 +50,9 @@
   "closing_translation": "May Allah bless you both, shower His blessings upon you, and join you together in goodness.",
   "closing_note": "Please keep us in your prayers.",
   "calendar_google_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Faizan%20%26%20Yasmin%20-%20Nikah%2C%20Reception%20%26%20Lunch&dates=20270102T060000Z%2F20270102T093000Z&details=Nikah%20at%2011%3A30%20AM%0AReception%20at%201%3A00%20PM%0ALunch%20after%20Zuhr%0APlease%20keep%20us%20in%20your%20prayers.&location=Wedding%20venue%20-%20see%20the%20invitation%20map",
-  "calendar_ics_path": "/assets/Faizan-Yasmin-Wedding.ics",
+  "calendar_ics_path": "./assets/Faizan-Yasmin-Wedding.ics",
   "calendar_ics_download": "Faizan-Yasmin-Wedding.ics",
-  "audio_path": "/assets/al-hamdulillah.mp3",
+  "audio_path": "./assets/al-hamdulillah.mp3",
   "footer": {
     "left": "With love, always",
     "monogram": "Yazaan",
