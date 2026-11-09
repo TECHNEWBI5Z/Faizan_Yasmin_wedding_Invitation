@@ -1,0 +1,259 @@
+{
+  "theme": "dark",
+  "archetype": "LUXURY & CINEMATIC ROYAL MIDNIGHT (Arabian Night Garden)",
+  "emotional_tone": "Majestic, celestial, spiritually uplifting, cinematic, intimate luxury",
+  "entry_surfaces": {
+    "/": "Royal Star-tile Arch Gate with Carved Latticework & Luminescent Gold Seal — doors-open cinematic split reveal into moonlit garden"
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0B0C1A",
+        "on_bg": "#F5EAD4",
+        "on_bg_muted": "#D6C7A8",
+        "roles": {
+          "link": "#F2C94C",
+          "gold_glow": "#FFD700",
+          "accent_rose": "#E27B88",
+          "accent_turquoise": "#2DD4BF",
+          "accent_saffron": "#F59E0B"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#15182E",
+        "on_bg": "#FBF6E9",
+        "on_bg_muted": "#C2B496",
+        "roles": {
+          "border_gold": "rgba(229, 174, 51, 0.45)",
+          "inner_glow": "rgba(242, 201, 76, 0.12)"
+        }
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#EBD39E",
+        "on_bg": "#101226",
+        "on_bg_muted": "#2C1B30"
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#0D0F22",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(11,12,26,0.85) 0%, rgba(18,14,38,0.7) 40%, rgba(11,12,26,0.95) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#E5D7BE",
+        "roles": {
+          "link": "#FFDF78",
+          "gold_title": "#FFE182",
+          "arabic_gold": "#FFDF85"
+        }
+      },
+      {
+        "name": "opening_gate",
+        "kind": "solid",
+        "bg": "#090A14",
+        "on_bg": "#FBEBC7",
+        "on_bg_muted": "#CFBE9B",
+        "roles": {
+          "seal_gold": "#FFDE72",
+          "hint": "#EAC678"
+        }
+      },
+      {
+        "name": "quote_band",
+        "kind": "solid",
+        "bg": "#120E26",
+        "on_bg": "#FFF9EE",
+        "on_bg_muted": "#C9BED6"
+      },
+      {
+        "name": "venue_card",
+        "kind": "solid",
+        "bg": "#141732",
+        "on_bg": "#FFF7E8",
+        "on_bg_muted": "#CFC1A5"
+      }
+    ],
+    "accent": "#E5AE33",
+    "on_accent": "#0E1022"
+  },
+  "typography": {
+    "font_family_heading": "Cormorant Garamond, 'Playfair Display', Georgia, serif",
+    "font_family_body": "DM Sans, 'Plus Jakarta Sans', sans-serif",
+    "font_family_arabic": "Noto Naskh Arabic, serif",
+    "scale_px": {
+      "display": 60,
+      "h1": 48,
+      "h2": 36,
+      "h3": 24,
+      "body": 16,
+      "caption": 14
+    },
+    "typesetting_rules": [
+      "H1 (Hero): clamp(42px, 6.5vw, 60px) with leading-[0.95] and tracking-tight",
+      "Arabic script: font-arabic leading-relaxed text-2xl sm:text-3xl text-gold-glow",
+      "Overlines / Eyebrows: uppercase tracking-[0.25em] text-xs font-semibold",
+      "NO text overlap with decorative arches, star tiles, lanterns or background figures — clean vertical flow with explicit margins and padding",
+      "Body copy: leading-relaxed tracking-normal"
+    ]
+  },
+  "layout_and_composition": {
+    "philosophy": "Cinematic Royal Midnight Arabian Night Garden — layers of depth with stars, moonlit arches, glowing brass lanterns, floral water canal, and geometric Islamic star tiles",
+    "doors_open_transition": {
+      "concept": "Majlis Star Arch Gate with dual-folding filigree doors opening outward upon tapping the luminous gold wax seal",
+      "animation": "Left door rotatesY(-110deg), Right door rotatesY(110deg), wax seal pulses with gold particle burst, camera dollys smoothly into the moonlit midnight garden",
+      "timing": "1200ms cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    "grid_structure": "Tetris & Bento Asymmetry — Single column on mobile (max-width 540px), balanced double-column / bento cards on desktop (max-width 1080px)",
+    "layering_z_index": [
+      "z-0: Ambient starfield, nebula gradient, moon & garden silhouette canvas",
+      "z-10: Atmospheric mist, slow-swaying hanging lanterns, floating gold dust & rose petals",
+      "z-20: Decorative Islamic arch frames & card borders with 1px gold foil stroke",
+      "z-30: Pure legible text content, countdown timers, and interactive action buttons",
+      "z-40: Sticky topbar / audio player floating pill",
+      "z-50: Fullscreen opening screen and transition overlay"
+    ]
+  },
+  "visual_enhancers": {
+    "palette_tokens": {
+      "midnight_indigo": "#0B0C1A",
+      "midnight_violet": "#120E26",
+      "deep_sapphire": "#15182E",
+      "royal_gold": "#E5AE33",
+      "gold_light": "#FFE182",
+      "rose_glow": "#E27B88",
+      "turquoise_accent": "#2DD4BF",
+      "saffron_accent": "#F59E0B"
+    },
+    "motifs": [
+      "8-point Islamic Star Tile (Girih / Khatam pattern) debossed in gold foil lines",
+      "Crescent moon with celestial radiance",
+      "Hanging Moroccan / Arabian brass lanterns with warm golden flame flicker",
+      "Rippling moonlit palace garden canal with floating glowing lotus & rose petals (no creatures/animals/people)",
+      "Film grain overlay (CSS SVG noise filter) for cinematic analog warmth",
+      "Slow parallax camera drift on scroll"
+    ],
+    "strict_visual_rules": [
+      "ABSOLUTELY NO PEOPLE, ANIMALS, BIRDS, OR INSECTS in any image, illustration, SVG or animation",
+      "Every text block MUST sit in its own dedicated clear row — NO overlapping text on static symbols or geometric ornaments",
+      "Nikah Time is explicitly marked at 11:30 AM (gathering begins 11:30 AM), Reception at 1:00 PM, Lunch after Zuhr",
+      "Countdown timer strictly targets 02 January 2027, 11:00 AM IST (2027-01-02T11:00:00+05:30)",
+      "All wedding config data (names, dates, times, map link, calendar links, Qur'an quote) stored in a clean config structure or top-level constants"
+    ]
+  },
+  "motion_and_interactions": {
+    "nasheed_audio": {
+      "file": "assets/al-hamdulillah.mp3",
+      "behavior": "Autoplays upon guest tapping the glowing wax seal on the gate; sound toggle button in topbar/floating dock allows instant mute/unmute"
+    },
+    "calendar_integration": {
+      "google_calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Faizan%20%26%20Yasmin%20-%20Nikah%2C%20Reception%20%26%20Lunch&dates=20270102T060000Z%2F20270102T093000Z&details=Nikah%20at%2011%3A30%20AM%0AReception%20at%201%3A00%20PM%0ALunch%20after%20Zuhr%0APlease%20keep%20us%20in%20your%20prayers.&location=Wedding%20venue%20-%20see%20the%20invitation%20map",
+      "apple_ics_file": "assets/Faizan-Yasmin-Wedding.ics",
+      "logic": "Auto-detects iOS/macOS devices to download .ics; opens Google Calendar for Android/Windows/others"
+    },
+    "countdown_engine": {
+      "target_iso": "2027-01-02T11:00:00+05:30",
+      "display_units": ["Days", "Hours", "Minutes", "Seconds"],
+      "live_polite": true
+    },
+    "scroll_reveals": "IntersectionObserver staggered fades with subtle translateY(24px) to (0px) and soft gold luminescence"
+  },
+  "image_urls": {
+    "night_palace_fountain": {
+      "url": "https://images.unsplash.com/photo-1570206986634-afd7cccb68d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxhcmFiaWFuJTIwcGFsYWNlJTIwZ2FyZGVuJTIwbmlnaHQlMjBmb3VudGFpbnxlbnwwfHx8fDE3OTQyMDU4Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "category": "background_garden",
+      "description": "Moonlit architectural palace garden reflecting water at night — no people/animals"
+    },
+    "night_fountain_palace_courtyard": {
+      "url": "https://images.unsplash.com/photo-1570206982564-1c5d086f29d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxhcmFiaWFuJTIwcGFsYWNlJTIwZ2FyZGVuJTIwbmlnaHQlMjBmb3VudGFpbnxlbnwwfHx8fDE3OTQyMDU4Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "category": "venue_atmosphere",
+      "description": "Illuminated nighttime palace fountains and majestic arches with nocturnal reflections"
+    },
+    "mosque_star_sky": {
+      "url": "https://images.unsplash.com/photo-1531213203257-16afb0eac95e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHxpc2xhbWljJTIwYXJjaGl0ZWN0dXJlJTIwZG9tZSUyMG5pZ2h0JTIwbGFudGVybnxlbnwwfHx8fDE3OTQyMDU4Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "category": "celestial_sky",
+      "description": "Star trail night sky over silhouettes of domes and minarets in deep indigo and violet"
+    }
+  },
+  "sections_and_content_blueprint": {
+    "1_entry_screen": {
+      "title": "Star-Tile Royal Arch Entrance",
+      "elements": [
+        "Gold filigree archway with Arabic calligraphy (In the name of Allah)",
+        "3D Glowing Royal Gold Wax Seal with Arabic 'Yazaan' monogram (يَزَان) and date 02 · 01 · 27",
+        "Pulsing gold flare indicator: 'TAP THE SEAL TO ENTER'",
+        "Dual carved palace doors that part smoothly with 3D perspective when clicked"
+      ]
+    },
+    "2_header_and_navigation": {
+      "monogram": "Yazaan (02 · 01 · 27)",
+      "links": ["Celebration", "Details", "Lunch", "Venue"],
+      "sound_toggle": "Audio toggle pill with animated soundwave indicator",
+      "location_cta": "View Location ↗"
+    },
+    "3_hero_section": {
+      "bismillah": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+      "eyebrow": "In the name of Allah, the Most Gracious, the Most Merciful",
+      "intro": "With hearts full of gratitude & joy",
+      "couple_names": "Mahammed Faizan & Yasmin Parveen",
+      "subtitle": "Together with their families, they invite you to celebrate the beginning of their forever.",
+      "date_highlight": "The Nikah — 02 January 2027",
+      "countdown": "Countdown targeting 02 January 2027 · 11:00 AM IST",
+      "primary_action": "Explore Celebration ↓"
+    },
+    "4_quran_quote_band": {
+      "verse_arabic_and_english": "“And We created you in pairs.”",
+      "citation": "— The Holy Qur’an, 78:8",
+      "styling": "Luminous violet & indigo band with gold star arabesques"
+    },
+    "5_event_details": {
+      "heading": "A Day of Blessings",
+      "lede": "With family and friends around us, your presence and duas will make this celebration all the more special.",
+      "nikah_card": {
+        "event": "The Nikah",
+        "time": "11:30 AM",
+        "note": "Gathering & solemnisation begins"
+      },
+      "reception_card": {
+        "event": "Reception & Greetings",
+        "time": "1:00 PM",
+        "note": "Blessings and warm regards from both families"
+      },
+      "calendar_actions": "Single-tap Add to Calendar button (Google Link + Apple .ics)"
+    },
+    "6_lunch_feast": {
+      "heading": "Lunch after Zuhr",
+      "label": "A Table Prepared with Love",
+      "description": "After the Nikah and Zuhr prayer, join us for a feast shared with family, friends, and all those who make this day joyful.",
+      "time_badge": "After Zuhr Prayer"
+    },
+    "7_venue_and_map": {
+      "heading": "Meet Us There",
+      "label": "Come Celebrate With Us",
+      "description": "We would be honoured to have you with us as we begin this beautiful new chapter.",
+      "map_link": "https://share.google/ZFb1wtydEeQ1SV2Oz",
+      "visual": "Stylized Arabian garden compass map card with golden coordinates and direct Google Maps link"
+    },
+    "8_closing_dua": {
+      "arabic": "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+      "translation": "May Allah bless you both, shower His blessings upon you, and join you together in goodness.",
+      "closing_names": "Faizan & Yasmin",
+      "closing_note": "Please keep us in your prayers.",
+      "monogram_footer": "With love, always — Yazaan — 02 · 01 · 27"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. Replace the existing pink/maroon theme in index.html and styles.css with the cinematic 'Royal Midnight – Arabian Night Garden' color scheme (Midnight Indigo #0B0C1A, Deep Violet #120E26, Royal Gold #E5AE33, Rose #E27B88, Turquoise #2DD4BF, Saffron #F59E0B).",
+    "2. Ensure the Doors-Open transition is smooth: when clicking the wax seal #open-invitation, animate the arch doors opening with perspective and play the nasheed audio (assets/al-hamdulillah.mp3).",
+    "3. UPDATE Nikah time in HTML and JS to 11:30 AM (as requested: 'Mark Nikah Time at 11.30 AM instead of 10.30').",
+    "4. UPDATE Countdown target in script.js to '2027-01-02T11:00:00+05:30' (11:00 AM IST on 2 Jan 2027).",
+    "5. ABSOLUTELY NO figures of people, animals, birds or insects anywhere in CSS, SVG, or images.",
+    "6. Ensure clean alignment: every text line has its own row, nothing overlaps with decorative figures or background arches.",
+    "7. Include comprehensive data-testid attributes on all interactive elements (e.g., data-testid='open-invitation-btn', data-testid='music-toggle-btn', data-testid='add-to-calendar-btn', data-testid='map-location-link', data-testid='countdown-days').",
+    "8. Keep responsive mobile-first padding and floating bottom navigation dock for smooth navigation on phones."
+  ]
+}

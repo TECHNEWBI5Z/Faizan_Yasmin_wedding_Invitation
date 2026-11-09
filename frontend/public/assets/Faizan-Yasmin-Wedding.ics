@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Faizan and Yasmin//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:faizan-yasmin-wedding-20270102@invitation.local
+DTSTAMP:20261108T000000Z
+DTSTART:20270102T060000Z
+DTEND:20270102T093000Z
+SUMMARY:Faizan & Yasmin - Nikah, Reception & Lunch
+DESCRIPTION:Nikah at 11:30 AM\nReception at 1:00 PM\nLunch after Zuhr\nPlease keep us in your prayers.\nMap: https://share.google/ZFb1wtydEeQ1SV2Oz
+LOCATION:Wedding venue - see the invitation map
+URL:https://share.google/ZFb1wtydEeQ1SV2Oz
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,61 @@
+{
+  "monogram": "Yazaan",
+  "names_line": "Faizan & Yasmin",
+  "full_names_line": "Mahammed Faizan & Yasmin Parveen",
+  "bismillah_ar": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+  "bismillah_en": "In the name of Allah, the Most Gracious, the Most Merciful",
+  "intro_kicker": "With hearts full of gratitude & joy",
+  "invite_subtitle": "Together with their families, they invite you to celebrate the beginning of their forever.",
+  "date_label": "The Nikah",
+  "date_value": "02 January 2027",
+  "countdown_target_iso": "2027-01-02T11:00:00+05:30",
+  "countdown_target_label": "02 January 2027 · 11:00 AM",
+  "events": [
+    {
+      "id": "nikah",
+      "name": "The Nikah",
+      "time_label": "11:30 AM",
+      "note": "Gathering & solemnisation begin"
+    },
+    {
+      "id": "reception",
+      "name": "Reception",
+      "time_label": "1:00 PM",
+      "note": "Reception & blessings"
+    }
+  ],
+  "warm_regards": "With warm regards — from the families of Faizan & Yasmin",
+  "details": {
+    "label": "Save the date",
+    "heading": "A day of blessings",
+    "description": "With family and friends around us, your presence and duas will make this celebration all the more special."
+  },
+  "lunch": {
+    "label": "A table prepared with love",
+    "heading": "Lunch after Zuhr",
+    "description": "After the Nikah, stay with us for a warm meal shared with family, friends, and all those who make this day joyful.",
+    "time_badge": "After Zuhr",
+    "time_note": "Food, family & memories"
+  },
+  "venue": {
+    "label": "Come celebrate with us",
+    "heading": "Meet us there",
+    "description": "We would be honoured to have you with us as we begin this beautiful new chapter."
+  },
+  "quran_quote": "And We created you in pairs.",
+  "quran_citation": "— The Holy Qur’an, 78:8",
+  "map_url": "https://share.google/ZFb1wtydEeQ1SV2Oz",
+  "map_cta": "Open map",
+  "closing_arabic": "بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+  "closing_translation": "May Allah bless you both, shower His blessings upon you, and join you together in goodness.",
+  "closing_note": "Please keep us in your prayers.",
+  "calendar_google_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Faizan%20%26%20Yasmin%20-%20Nikah%2C%20Reception%20%26%20Lunch&dates=20270102T060000Z%2F20270102T093000Z&details=Nikah%20at%2011%3A30%20AM%0AReception%20at%201%3A00%20PM%0ALunch%20after%20Zuhr%0APlease%20keep%20us%20in%20your%20prayers.&location=Wedding%20venue%20-%20see%20the%20invitation%20map",
+  "calendar_ics_path": "/assets/Faizan-Yasmin-Wedding.ics",
+  "calendar_ics_download": "Faizan-Yasmin-Wedding.ics",
+  "audio_path": "/assets/al-hamdulillah.mp3",
+  "footer": {
+    "left": "With love, always",
+    "monogram": "Yazaan",
+    "date": "02 · 01 · 27"
+  }
+}
